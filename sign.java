@@ -1,4 +1,4 @@
-package service.wxcamera;
+﻿package service.wxcamera;
 
 import java.util.UUID;
 import java.util.Map;
@@ -13,7 +13,7 @@ import java.io.UnsupportedEncodingException;
 
 import com.alibaba.fastjson.JSONObject;
 
-class Sign {
+class Sign { 
     public static void main(String[] args) {
     	 
         try {
