@@ -1,4 +1,4 @@
-package service.wxcamera;
+﻿package service.wxcamera;
 
 import java.util.UUID;
 import java.util.Map;
@@ -13,7 +13,7 @@ import java.io.UnsupportedEncodingException;
 
 import com.alibaba.fastjson.JSONObject;
 
-class Sign {
+class Sign { 
     public static void main(String[] args) {
     	 
         try {
@@ -105,4 +105,5 @@ class Sign {
     private static String create_timestamp() {
         return Long.toString(System.currentTimeMillis() / 1000);
     }
+	//ceshi666666666
 }
